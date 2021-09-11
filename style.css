@@ -1,0 +1,38 @@
+body{
+    font-family: "Areal", sans-serif;
+    background-color: #f1f1f1;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+input{
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.form{
+    width: 450px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 0;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.btn{
+    margin-left: 10px;
+    background-color: rgb(46, 255, 5);
+    height: 30px;
+    border: none;
+}
+.btn:hover{
+    box-shadow: 2px 2px 2px #000;
+    }
+.result{
+    text-align: center;
+    font-size: 25px;
+}
