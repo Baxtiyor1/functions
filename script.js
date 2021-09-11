@@ -17,6 +17,9 @@ elForm_1.addEventListener('submit', function(e) {
     }else{
         elResult.textContent = 'Raqam kiriting' 
     }
+
+    elPlusinput_1.value = ''
+    elPlusinput_2.value = ''
 })
 
 // function minus 
@@ -39,6 +42,9 @@ elForm_2.addEventListener('submit', function(e) {
     }else{
         elResult_minus.textContent = 'Raqam kiriting' 
     }
+
+    elMinusinput_1.value = ''
+    elMinusinput_2.value = ''
 })
 
 //function devide
@@ -62,6 +68,9 @@ elForm_3.addEventListener('submit', function(e) {
     }else{
         elResult_devide.textContent = 'Raqam kiriting' 
     }
+
+    eldevideinput_1.value = ''
+    eldevideinput_2.value = ''
 })
 
 //function multiple
@@ -84,4 +93,7 @@ elForm_4.addEventListener('submit', function(e) {
     }else{
         elResult_multiple.textContent = 'Raqam kiriting' 
     }
+
+    elmultipleinput_1.value = ''
+    elmultipleinput_2.value = ''
 })
